@@ -10,7 +10,7 @@ metadata:
 spec:
   istio_namespace: istio-system
   deployment:
-    accessible_namespace: ["**"]
+    accessible_namespaces: ["**"]
     ingress_enabled: false
     namespace: istio-system
     image_name: quay.io/kiali/kiali
